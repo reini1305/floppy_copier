@@ -56,16 +56,21 @@ WantedBy=multi-user.target
 ## Usage
 
 After start, the script waits until a USB stick is being inserted (detection shown using `USB` text in the first line of the display). It will wait up to 60 seconds for you to connect and insert a Floppy into the USB drive:
+
 ![waiting](https://github.com/reini1305/floppy_copier/blob/main/media/copy2.png?raw=True)
 
 It then tries to mount both:
+
 ![mounting](https://github.com/reini1305/floppy_copier/blob/main/media/mounting.png?raw=True)
 
 If successfull, all `.JPG` files are copied into a folder of the name `YYYY-MM-DD` on the USB stick: 
+
 ![copying](https://github.com/reini1305/floppy_copier/blob/main/media/copy1.png?raw=True)
 
 After unmounting both, it will then wait for you to remove the floppy:
+
 ![unmounting](https://github.com/reini1305/floppy_copier/blob/main/media/unmounting.png?raw=True)
+
 ![remove](https://github.com/reini1305/floppy_copier/blob/main/media/remove.png?raw=True)
 
 After that, it goes back to waiting for another floppy for 60 seconds and then end (and shutdown the Pi).
