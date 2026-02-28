@@ -8,6 +8,7 @@ Using a Raspberry Pi to build an autonomous USB-Floppy Disk to USB-Stick copier 
 * SD card for Raspi OS Lite (min. 8GB)
 * USB Stick to hold images
 * USB Floppy drive
+* optional 3D printed Raspberry Pi [case](https://www.printables.com/model/24942-raspberry-pi-34-b-case) and [lid](https://www.printables.com/model/960375-raspberry-pi-3-oled-display-case-lid)
 * optional Powerbank, capably of supplying 5V 3A to run the Raspberry Pi
 
 ## Installation
